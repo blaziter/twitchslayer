@@ -30,8 +30,11 @@ const NavbarComponent = () => {
                         <LinkContainer to={`/items`}>
                             <Nav.Link>Items</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to={`/achievskins`}>
-                            <Nav.Link>Achievements & Skins</Nav.Link>
+                        <LinkContainer to={`/skins`}>
+                            <Nav.Link>Skins</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to={`/achievements`}>
+                            <Nav.Link>Achievements</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={`/options`}>
                             <Nav.Link>Options</Nav.Link>

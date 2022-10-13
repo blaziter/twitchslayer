@@ -1,14 +1,14 @@
 import React from 'react';
 import { Card, Container } from 'react-bootstrap';
 
-const Items = () => {
+const Achievements = () => {
     return (
         <>
             <Container className='margin-top'>
                 <Card className='align-center'>
-                    <Card.Body>
+                <Card.Body>
                         <Card.Title>
-                            Items
+                            Achievements
                         </Card.Title>
                     </Card.Body>
                 </Card>
@@ -17,4 +17,4 @@ const Items = () => {
     );
 }
 
-export default Items;
+export default Achievements;
