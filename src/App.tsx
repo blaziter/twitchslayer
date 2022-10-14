@@ -12,7 +12,7 @@ const App = () => {
             <Provider store={store}>
                 <NavbarComponent />
                 <Routes>
-                    <Route exact index element={<Clicker />} />
+                    <Route index element={<Clicker />} />
                     <Route path='champions' element={<Champions />} />
                     <Route path='items' element={<Items />} />
                     <Route path='achievements' element={<Achievements />} />

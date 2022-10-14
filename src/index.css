@@ -20,3 +20,15 @@ code {
   align-items: center;
   text-align: center;
 }
+
+.full-width {
+  width: 100%;
+}
+
+.stats {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
